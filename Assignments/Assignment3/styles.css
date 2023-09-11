@@ -1,5 +1,5 @@
-
 @font-face {
+    /*Modification 1*/
     font-family: CrimsonText;
     src: url(CrimsonText-Regular.ttf);
 }
@@ -7,13 +7,35 @@
 body{
     background-color:rgb(204,255,204);
     color:black;
-    padding-left: 10px;
+    margin: 10px;
 }
 
 h1{
-    text-align: center;
+    text-align: center; /*Modification 4*/
     font-family: CrimsonText;
-    font-size: 48px;
+    font-size: 48px; /*Modification 5*/
+}
+
+h3{
+    padding-left: 10px;
+    font-weight: bold; /*Modification 7*/
+}
+
+h4{
+    padding-left: 10px;
+}
+
+p{
+    padding-left: 10px;
+}
+
+p.description{
+    text-align: center;
+    letter-spacing: 0.05rem; /*Modification 9*/
+}
+
+h3:first-letter{
+    font-size: 120%; /*Modification 6*/ 
 }
 
 .center{
@@ -28,14 +50,19 @@ h1{
     padding-left: 5px;
 }
 
-.MenuItem{
-    background-color: white;
+a{
+    padding-left: 10px;
 }
 
+a.MenuListItem{
+    line-height: 1.75rem; /*Modification 8*/ 
+}
 a:visited{
+    /*Modification 2*/
     color:blue;
 }
 
-a:hover{
+a:hover{ 
+    /*Modification 3*/
     color: red;
 }
