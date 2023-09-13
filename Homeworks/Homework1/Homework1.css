@@ -9,6 +9,7 @@
 }
 
 body{
+    background-color: rgb(255,255,242);
     font-family: OswaldReg;
     font-size: 90%;
     margin: 0px;
@@ -28,6 +29,7 @@ h3{
 p{
     font-family: OswaldReg;
 }
+
 .header{
     background-color: rgb(226,12,4);
     padding: 0px 0px 0px 0px;
@@ -96,6 +98,10 @@ th,td{
     padding-left: 2%;
 }
 
+.headquarters{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .contact{
     margin-left: 10px;
     margin-right: 10px;
