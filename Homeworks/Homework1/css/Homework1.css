@@ -1,3 +1,12 @@
+ /* 
+ In terms of organizing our css file, we first have the importing of our fonts. 
+ We generally have a structure that organizes our css from general to specific, which also goes from the order of 
+ the content on the page. Therefore, we will have the css of our headers and nav bar first, then content of the
+ actual page, and finally followed by the footer. 
+ */
+
+
+ /*Fonts*/
 @font-face {
     font-family: OswaldReg;
     src: url(fonts/Oswald-Regular.ttf);
@@ -8,6 +17,7 @@
     src: url(fonts/Oswald-Medium.ttf);
 }
 
+/*General*/
 body{
     background-color: rgb(255,255,242);
     font-family: OswaldReg;
@@ -30,6 +40,11 @@ p{
     font-family: OswaldReg;
 }
 
+a{
+    text-decoration: none;
+}
+
+/*Header*/
 .header{
     background-color: rgb(226,12,4);
     padding: 0px 0px 0px 0px;
@@ -38,6 +53,7 @@ p{
     height: 100px;
 }
 
+/*Navigation Bar*/
 .nav{
     font-family: OswaldReg;
     float: right;
@@ -55,6 +71,7 @@ p{
     color:rgb(224,224,224);
 }
 
+/*Formatting Mainpage*/
 .schedule{
     text-align: center;
 }
@@ -63,6 +80,7 @@ p{
     font-size: 120%;
 }
 
+/*Formatting Circuit Page*/
 .circuit{
     margin-left: 10px;
 }
@@ -74,8 +92,6 @@ p{
 
 table{
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
     border: 2px solid;
     width: 45%;
 }
@@ -84,24 +100,30 @@ th,td{
     border: 2px solid;
 }
 
+/*Formatting Champions Page*/
 .champions{
     margin-left: 10px;
 }
 
-.champions img{
-    margin-bottom: 50px;
-    padding-bottom: 30px;
-    margin-top: 20px;
-}
-
 .champions h3{
-    padding-left: 2%;
+    margin-left: 50px;
 }
 
+.champions figure{
+    margin-left: 50px;
+}
+
+.champions image{
+    margin-left: 30px;
+}
+
+/*Formatting Headquarters Page*/
 .headquarters{
     margin-top: 20px;
     margin-left: 20px;
 }
+
+/*Formatting Contact Page*/
 .contact{
     margin-left: 10px;
     margin-right: 10px;
@@ -114,6 +136,12 @@ th,td{
     margin-right: auto;
     display: block;
 }
+
+.contact input{
+    background-color: gray;
+}
+
+/*Formatting Footer*/
 .footer{
     background-color: rgb(19,19,27);
     padding: 5px 10px;
@@ -125,8 +153,4 @@ th,td{
     font-size: 75%;
     color: white;
     text-align: right;
-}
-
-a{
-    text-decoration: none;
 }
