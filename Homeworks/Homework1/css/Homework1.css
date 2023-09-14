@@ -9,12 +9,12 @@
  /*Fonts*/
 @font-face {
     font-family: OswaldReg;
-    src: url(fonts/Oswald-Regular.ttf);
+    src: url(../fonts/Oswald-Regular.ttf);
 }
 
 @font-face {
     font-family: OswaldMed;
-    src: url(fonts/Oswald-Medium.ttf);
+    src: url(../fonts/Oswald-Medium.ttf);
 }
 
 /*General*/
