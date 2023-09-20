@@ -1,0 +1,111 @@
+@font-face {
+    font-family: CrimsonText;
+    src: url(CrimsonText-Regular.ttf);
+}
+
+header{
+    background-image: url(images/pine.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+
+body{
+    background-color:rgb(247, 255, 247);
+    background-image: url(images/leaf.jpeg);
+    background-position: 80% 50%;
+    color:black;
+    margin: 10px;
+}
+
+h1{
+    text-align: center; 
+    font-family: CrimsonText;
+    font-size: 48px; 
+}
+
+h3{
+    padding-left: 10px;
+    font-weight: bold; 
+}
+
+h3[rel="sources"] {
+    background-color: white;
+}
+
+h3[rel*="title"] {
+    background-color: white;
+}
+
+h4{
+    padding-left: 10px;
+}
+
+h4[rel$="Ingredients"]{
+    background-color: white;
+}
+
+p{
+    padding-left: 10px;
+}
+
+ul{
+    list-style-image:url(images/star.png);
+}
+article > ul {
+    background-color: lightgray;
+}
+
+article > h4 {
+    background-color: lightgray;
+}
+
+h3 + a {
+    background-color: yellow;
+}
+
+p.description{
+    text-align: center;
+    letter-spacing: 0.05rem; /*Modification 9*/
+}
+
+h3:first-letter{
+    font-size: 120%; /*Modification 6*/ 
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MenuList{
+    background-color: rgb(224,224,224);
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.MenuItem p {
+    background-color: white;
+}
+
+a{
+    padding-left: 10px;
+}
+
+a.MenuListItem{
+    line-height: 1.75rem;  
+}
+a:visited{
+    color:blue;
+}
+
+a:hover{ 
+    color: red;
+}
+
+table{
+    border-spacing: 25px 25px;
+    background-color: pink;
+}
